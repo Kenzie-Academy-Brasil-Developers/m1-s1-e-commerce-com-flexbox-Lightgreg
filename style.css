@@ -20,13 +20,14 @@
        /*fonte= https://meyerweb.com/eric/tools/css/reset/*/
    
    
+     
      .container{
-        max-width: 1200px;
+        max-width:1200px;
         margin: 0 auto; 
-      }
-
+        }
+     
     .menu {
-        width: 100%;
+        width:100%;
         background: #ffffff;
         box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
       }
@@ -90,10 +91,10 @@
         font-size: 12px;
         line-height: 13px;
         display: flex;
-        width: 1200px;
+        width: 100%;
         height: 630px;
         margin: 0 auto;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items: center;
         flex-wrap: wrap;
         /*border: 1px solid black;*/
@@ -104,9 +105,10 @@
             display: flex;
             flex-direction: column;
             align-items:center;
-            padding: 10px 14px 5px 14px;
+            padding: 10px 14px 10px 14px;
             width: 24%;
             height: 305px;
+            margin-bottom: 16px;
             /*border: 1px solid black;8*/
             border-radius: 8px;
             background-color: #ffffff;
@@ -124,7 +126,6 @@
     }
             
     .carrinho{
-      margin: 0px auto 10px auto;
       text-decoration: none;
       height: 35px;
       background-color: #4c6ef5;
@@ -134,8 +135,7 @@
       align-items: center;
       justify-content: center;
       border-radius: 4px;
-      width: 170px;
-    }
+      }
 
     .preco{
         margin: 25px auto auto 2px;
